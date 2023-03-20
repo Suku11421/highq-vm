@@ -4,12 +4,12 @@
   "description": "Virtual Machine for highQ",
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/Suku11421/highQ-vm#readme",
+  "homepage": "https://github.com/Suku11421/highq-vm#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Suku11421/highQ-vm.git"
+    "url": "git+ssh://git@github.com/Suku11421/highq-vm.git"
   },
-  "main": "./dist/node/highQ-vm.js",
+  "main": "./dist/node/highq-vm.js",
   "browser": "./src/index.js",
   "scripts": {
     "build": "npm run docs && webpack --progress --colors --bail",
@@ -67,12 +67,12 @@
     "expose-loader": "0.7.5",
     "file-loader": "2.0.0",
     "format-message-cli": "6.2.0",
-    "in-publish": "2.0.1",
-    "jsdoc": "3.6.6",
+    "highq-blocks": "github:suku11421/highq-blocks#main",
+    "highq-l10n": "github:suku11421/highq-l10n#develop",
+    "in-publish": "^2.0.1",
+    "jsdoc": "^3.6.6",
     "json": "^9.0.4",
     "lodash.defaultsdeep": "4.6.1",
-    "highQ-blocks": "github:suku1989/highq-blocks#develop",
-    "highQ-l10n": "github:suku1989/highq-l10n#develop",
     "pngjs": "3.3.3",
     "scratch-audio": "0.1.0-prerelease.20200528195344",
     "scratch-render": "0.1.0-prerelease.20211028200436",
@@ -84,7 +84,7 @@
     "tap": "12.0.1",
     "tiny-worker": "2.3.0",
     "uglifyjs-webpack-plugin": "1.2.7",
-    "webpack": "4.46.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "3.1.0",
     "webpack-dev-server": "3.11.2"
   }
